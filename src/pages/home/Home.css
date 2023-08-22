@@ -1,0 +1,313 @@
+/* .carousel .slide img{
+    width: 100%;
+    height: 650px;
+    vertical-align: top;
+    border: 0;
+}
+
+.control-dots{
+    margin: 50px 0;
+}
+
+.posterImage > img{
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+.posterImage_overlay{
+    object-fit: cover;
+    position: absolute;
+    padding: 5rem;
+    bottom: 0;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-image: linear-gradient(rgb(0,0,0,0), rgb(0,0,0,1));
+    opacity: 1;
+    transition: opacity .3s;
+}
+
+.posterImage_overlay:hover{
+    opacity: 1;
+}
+
+.posterImage_title{
+    font-family: cooper;
+    font-weight: 900;
+    font-size: 4rem;
+    margin-bottom: 0.4rem;
+    text-align: left;
+}
+
+.posterImage_runtime{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 9rem;
+}
+
+.posterImage_rating{
+    margin-left: 3rem;
+}
+
+.fa-star{
+    color: orange;
+}
+
+.posterImage_description{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: 1rem;
+    display: flex;
+    text-align: left;
+    margin-bottom: 0.25rem;
+    width: 50%;
+}
+
+
+@media (max-width: 1200px){
+    html{
+        font-size: 12px;
+    }
+
+    .posterImage_description{
+        margin-bottom: 5.25rem;
+        font-size: 1.4rem;
+    }
+
+    .carosule .slide img{
+        width: 100%;
+    }
+
+    .carosule .control-dots{
+        margin: 46px 0px;
+    }
+}
+
+@media (max-width: 930px){
+    .posterImage_title{
+        font-size: 3.5rem;
+    }
+
+    .carousel .slide img {
+        width: 100%;
+        height: 600px;
+        vertical-align: top;
+        border: 0;
+    }
+
+    .posterImage_description {
+        margin-bottom: -1.75rem;
+        font-size: 1.4rem;
+        width: 70%;
+    }
+}
+
+@media (max-width: 700px){
+    .posterImage_description {
+        margin-bottom: -1.75rem;
+        font-size: 1.4rem;
+        width: 85%;
+    }
+}
+
+@media (max-width: 600px){
+    .carousel .slide img {
+        width: 100%;
+        height: 500px;
+    }
+
+    .posterImage_runtime{
+        margin-bottom: 4rem;
+    }
+
+    .posterImage_description{
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 550px){
+
+    .posterImage_overlay {
+        padding: 2rem;
+    }
+
+    .posterImage_description {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-style: italic;
+        font-size: 1rem;
+        display: flex;
+        text-align: left;
+        margin-bottom: 2.25rem;
+        
+        width: 100%;
+    }
+}
+
+@media (max-width: 455px){
+    html{
+        width: 460px;
+    }
+    .posterImage > img{
+        margin: auto;
+        display: block;
+        width: 80%;
+    }
+}  */
+
+ .posterImage{
+    height: 600px;
+}
+
+.posterImage > img {
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+.posterImage_overlay {
+    position: absolute;
+    padding: 5rem;
+    bottom: 0px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-image: linear-gradient(rgb(0,0,0,0), rgb(0,0,0,1));
+    opacity: 1;
+    transition: opacity .3s;
+}   
+
+.posterImage_overlay:hover {
+    opacity: 1;
+}
+
+.posterImage_title {
+    font-weight: 900;
+    font-size: 4rem;
+    margin-bottom: 0.4rem;
+    text-align: left;
+}
+
+.posterImage_runtime {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.posterImage_rating {
+    margin-left: 3rem;
+}
+
+.posterImage_description {
+    font-style: italic;
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+    display: flex;
+    text-align: left;
+    width: 50%;
+} 
+
+/* ************************************************************************ */
+@media (max-width: 1200px){
+    html{
+        font-size: 12px;
+    }
+
+    .posterImage_description{
+        margin-bottom: 5.25rem;
+        font-size: 1.4rem;
+    }
+
+    .carosule .slide img{
+        width: 100%;
+    }
+
+    .carosule .control-dots{
+        margin: 46px 0px;
+    }
+}
+
+@media (max-width: 930px){
+    .posterImage_title{
+        font-size: 3.5rem;
+    }
+
+    .carousel .slide img {
+        width: 100%;
+        height: 600px;
+        vertical-align: top;
+        border: 0;
+    }
+
+    .posterImage_description {
+        margin-bottom: -1.75rem;
+        font-size: 1.4rem;
+        width: 70%;
+    }
+}
+
+@media (max-width: 700px){
+    .posterImage_description {
+        margin-bottom: -1.75rem;
+        font-size: 1.4rem;
+        width: 85%;
+    }
+}
+
+@media (max-width: 600px){
+    .carousel .slide img {
+        width: 100%;
+        height: 500px;
+    }
+
+    .posterImage_runtime{
+        margin-bottom: 4rem;
+    }
+
+    .posterImage_description{
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 550px){
+
+    .posterImage_overlay {
+        padding: 2rem;
+    }
+
+    .posterImage_description {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-style: italic;
+        font-size: 1rem;
+        display: flex;
+        text-align: left;
+        margin-bottom: 2.25rem;
+        
+        width: 100%;
+    }
+}
+
+@media(max-width: 500px){
+    
+    .posterImage{
+        padding: 15px;
+    }
+
+    .posterImage > img{
+        margin: auto;
+        display: block;
+        width: 140%;
+    }
+}
+
+@media (max-width: 455px){
+    html{
+        width: 460px;
+    }
+   
+} 
